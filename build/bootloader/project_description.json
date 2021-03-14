@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/jazminferreiro/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/jazminferreiro/esp-c/wifi-rest-test/build/bootloader",
+    "config_file":        "/Users/jazminferreiro/esp-c/wifi-rest-test/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4-dev-473-gc49d03b8e",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/jazminferreiro/esp/esp-idf/components/efuse/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/esp32/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/esp_common/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/esp_system/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/log/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/newlib/Kconfig;/Users/jazminferreiro/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/jazminferreiro/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/jazminferreiro/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/jazminferreiro/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/jazminferreiro/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/jazminferreiro/esp/esp-idf/components/bootloader", "/Users/jazminferreiro/esp/esp-idf/components/bootloader_support", "/Users/jazminferreiro/esp/esp-idf/components/efuse", "/Users/jazminferreiro/esp/esp-idf/components/esp32", "/Users/jazminferreiro/esp/esp-idf/components/esp_common", "/Users/jazminferreiro/esp/esp-idf/components/esp_hw_support", "/Users/jazminferreiro/esp/esp-idf/components/esp_rom", "/Users/jazminferreiro/esp/esp-idf/components/esp_system", "/Users/jazminferreiro/esp/esp-idf/components/esptool_py", "/Users/jazminferreiro/esp/esp-idf/components/hal", "/Users/jazminferreiro/esp/esp-idf/components/log", "/Users/jazminferreiro/esp/esp-idf/components/bootloader/subproject/main", "/Users/jazminferreiro/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/jazminferreiro/esp/esp-idf/components/newlib", "/Users/jazminferreiro/esp/esp-idf/components/partition_table", "/Users/jazminferreiro/esp/esp-idf/components/soc", "/Users/jazminferreiro/esp/esp-idf/components/spi_flash", "/Users/jazminferreiro/esp/esp-idf/components/xtensa", "" ]
+}

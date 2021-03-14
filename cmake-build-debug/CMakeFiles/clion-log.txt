@@ -1,0 +1,51 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jazminferreiro/esp-c/wifi-rest-test
+-- Found Git: /usr/bin/git (found version "2.24.3 (Apple Git-128)") 
+-- IDF_TARGET not set, using default target: esp32
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/jazminferreiro/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /Users/jazminferreiro/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /Users/jazminferreiro/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/jazminferreiro/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /Users/jazminferreiro/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+Python requirements from /Users/jazminferreiro/esp/esp-idf/requirements.txt are satisfied.
+-- Project sdkconfig file /Users/jazminferreiro/esp-c/wifi-rest-test/sdkconfig
+-- Found PythonInterp: /Users/jazminferreiro/.espressif/python_env/idf4.4_py3.8_env/bin/python (found version "3.8.2") 
+-- Found Perl: /usr/bin/perl (found version "5.18.4") 
+CMake Warning (dev) at /Users/jazminferreiro/esp/esp-idf/components/mbedtls/CMakeLists.txt:114 (target_sources):
+  Policy CMP0076 is not set: target_sources() command converts relative paths
+  to absolute.  Run "cmake --help-policy CMP0076" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  A private source from a directory other than that of target "mbedcrypto"
+  has a relative path.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- App "wifi_station" version: 1
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+-- Adding linker script /Users/jazminferreiro/esp-c/wifi-rest-test/cmake-build-debug/esp-idf/esp32/esp32_out.ld
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp32/ld/esp32.project.ld.in
+-- Adding linker script /Users/jazminferreiro/esp/esp-idf/components/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update asio bootloader bootloader_support bt cbor cmock coap console cxx driver efuse esp-tls esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_ipc esp_local_ctrl esp_netif esp_pm esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos hal heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter tinyusb ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/jazminferreiro/esp/esp-idf/components/app_trace /Users/jazminferreiro/esp/esp-idf/components/app_update /Users/jazminferreiro/esp/esp-idf/components/asio /Users/jazminferreiro/esp/esp-idf/components/bootloader /Users/jazminferreiro/esp/esp-idf/components/bootloader_support /Users/jazminferreiro/esp/esp-idf/components/bt /Users/jazminferreiro/esp/esp-idf/components/cbor /Users/jazminferreiro/esp/esp-idf/components/cmock /Users/jazminferreiro/esp/esp-idf/components/coap /Users/jazminferreiro/esp/esp-idf/components/console /Users/jazminferreiro/esp/esp-idf/components/cxx /Users/jazminferreiro/esp/esp-idf/components/driver /Users/jazminferreiro/esp/esp-idf/components/efuse /Users/jazminferreiro/esp/esp-idf/components/esp-tls /Users/jazminferreiro/esp/esp-idf/components/esp32 /Users/jazminferreiro/esp/esp-idf/components/esp_adc_cal /Users/jazminferreiro/esp/esp-idf/components/esp_common /Users/jazminferreiro/esp/esp-idf/components/esp_eth /Users/jazminferreiro/esp/esp-idf/components/esp_event /Users/jazminferreiro/esp/esp-idf/components/esp_gdbstub /Users/jazminferreiro/esp/esp-idf/components/esp_hid /Users/jazminferreiro/esp/esp-idf/components/esp_http_client /Users/jazminferreiro/esp/esp-idf/components/esp_http_server /Users/jazminferreiro/esp/esp-idf/components/esp_https_ota /Users/jazminferreiro/esp/esp-idf/components/esp_https_server /Users/jazminferreiro/esp/esp-idf/components/esp_hw_support /Users/jazminferreiro/esp/esp-idf/components/esp_ipc /Users/jazminferreiro/esp/esp-idf/components/esp_local_ctrl /Users/jazminferreiro/esp/esp-idf/components/esp_netif /Users/jazminferreiro/esp/esp-idf/components/esp_pm /Users/jazminferreiro/esp/esp-idf/components/esp_ringbuf /Users/jazminferreiro/esp/esp-idf/components/esp_rom /Users/jazminferreiro/esp/esp-idf/components/esp_serial_slave_link /Users/jazminferreiro/esp/esp-idf/components/esp_system /Users/jazminferreiro/esp/esp-idf/components/esp_timer /Users/jazminferreiro/esp/esp-idf/components/esp_websocket_client /Users/jazminferreiro/esp/esp-idf/components/esp_wifi /Users/jazminferreiro/esp/esp-idf/components/espcoredump /Users/jazminferreiro/esp/esp-idf/components/esptool_py /Users/jazminferreiro/esp/esp-idf/components/expat /Users/jazminferreiro/esp/esp-idf/components/fatfs /Users/jazminferreiro/esp/esp-idf/components/freemodbus /Users/jazminferreiro/esp/esp-idf/components/freertos /Users/jazminferreiro/esp/esp-idf/components/hal /Users/jazminferreiro/esp/esp-idf/components/heap /Users/jazminferreiro/esp/esp-idf/components/idf_test /Users/jazminferreiro/esp/esp-idf/components/jsmn /Users/jazminferreiro/esp/esp-idf/components/json /Users/jazminferreiro/esp/esp-idf/components/libsodium /Users/jazminferreiro/esp/esp-idf/components/log /Users/jazminferreiro/esp/esp-idf/components/lwip /Users/jazminferreiro/esp-c/wifi-rest-test/main /Users/jazminferreiro/esp/esp-idf/components/mbedtls /Users/jazminferreiro/esp/esp-idf/components/mdns /Users/jazminferreiro/esp/esp-idf/components/mqtt /Users/jazminferreiro/esp/esp-idf/components/newlib /Users/jazminferreiro/esp/esp-idf/components/nghttp /Users/jazminferreiro/esp/esp-idf/components/nvs_flash /Users/jazminferreiro/esp/esp-idf/components/openssl /Users/jazminferreiro/esp/esp-idf/components/partition_table /Users/jazminferreiro/esp/esp-idf/components/perfmon /Users/jazminferreiro/esp/esp-idf/components/protobuf-c /Users/jazminferreiro/esp/esp-idf/components/protocomm /Users/jazminferreiro/esp/esp-idf/components/pthread /Users/jazminferreiro/esp/esp-idf/components/sdmmc /Users/jazminferreiro/esp/esp-idf/components/soc /Users/jazminferreiro/esp/esp-idf/components/spi_flash /Users/jazminferreiro/esp/esp-idf/components/spiffs /Users/jazminferreiro/esp/esp-idf/components/tcp_transport /Users/jazminferreiro/esp/esp-idf/components/tcpip_adapter /Users/jazminferreiro/esp/esp-idf/components/tinyusb /Users/jazminferreiro/esp/esp-idf/components/ulp /Users/jazminferreiro/esp/esp-idf/components/unity /Users/jazminferreiro/esp/esp-idf/components/vfs /Users/jazminferreiro/esp/esp-idf/components/wear_levelling /Users/jazminferreiro/esp/esp-idf/components/wifi_provisioning /Users/jazminferreiro/esp/esp-idf/components/wpa_supplicant /Users/jazminferreiro/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jazminferreiro/esp-c/wifi-rest-test/cmake-build-debug
